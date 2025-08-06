@@ -57,6 +57,7 @@ public class Scrabble {
             }
             else if ((c== ']' && oldC2 != '[') || (c== '}' && oldC2 != '{')){
                 return 0;
+
             }
 
             else if (oldC2 == '{' || oldC2 == '[') {
